@@ -1,0 +1,30 @@
+.box-shadow{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+                        0 4px 8px 0 rgba(0, 0, 0, .05);
+}
+.icone{
+  height: 100px;
+}
+.imagem-bg{
+  background: url('../img/bg-quote.jpg') no-repeat center center/cover;
+}
+@media(max-width: 767px){
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body{
+    padding-top: 0;
+  }
+  .fixed-top{
+    position: relative;
+  }
+}
+.button-responsive{
+  max-width: 140px;
+}
+.list-divider li + li{
+  border-top: 1px solid rgba(0, 0, 0, .2);
+}
+.list-divider li{
+  padding: 1rem;
+}
